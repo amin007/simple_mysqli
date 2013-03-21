@@ -1,0 +1,24 @@
+
+<head>
+<link rel="stylesheet" type="text/css" href="datepicker.css" />
+
+
+
+<script type="text/javascript" src="datepicker.js"></script>
+
+</head>
+
+<form action="" method="post" name="form1" id="form1">
+    
+    <p>
+        *Research Start Date<br />
+        <input type="text" name="start_date" onclick="displayDatePicker('finance_date', this);" readonly />
+        <input type="button" value="select" onclick="displayDatePicker('start_date', this);" >
+    </p>
+    <p>
+        *Financial Start Date<br />
+        <input type="text" name="finance_date" onclick="displayDatePicker('finance_date', this);" readonly />
+        <input type="button" value="select"  ><br />
+       
+    </p>
+</form>
